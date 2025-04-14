@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body, main {
+    font-family: Arial, sans-serif;
+    background-color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Secciónes */
+.tarjeta {
+    max-width: 50rem;
+    background-color: #f5e7eb;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Boton */
+button {
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #a3d9a5;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: #bfdbc0;
+    animation: button-hover 0.5s; /* Llama a la animacion de expandir */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* ANIMACIONES */
+svg #Tail {
+    /*Rota la cola de la mascota*/
+    transform-origin: 50% 100%;
+    animation: move-tail 0.5s infinite alternate ease-in-out;
+}
+
+@keyframes move-tail {
+    0% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+svg #Whiskers {
+    /*Rota los bigotes de la mascota*/
+    transform-origin: center 35px;
+    animation: move-whiskers 8s infinite;
+}
+
+@keyframes move-whiskers {
+    0%,
+    95%,
+    100% {
+        transform: rotate(0deg);
+    }
+    96%,
+    98% {
+        transform: rotate(3deg);
+    }
+    97%,
+    99% {
+        transform: rotate(-3deg);
+    }
+}
+
+.cat-svg #EyeL,
+.cat-svg #EyeR {
+    /*Parpadeo de los ojos de la mascota*/
+    animation: blink 5s infinite;
+    transform-origin: center 25px;
+}
+
+@keyframes blink {
+    0%,
+    92%,
+    100% {
+        transform: scaleY(1);
+    }
+
+    95% {
+        transform: scaleY(0.1);
+    }
+}
+
+/* Animación de expandir botón */
+@keyframes button-hover {
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Dibujado de la huella */
+.footprint-svg {
+    stroke-dasharray: 210;
+    stroke-dashoffset: 210;
+    animation: draw 2s forwards;
+}
+
+@keyframes draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+

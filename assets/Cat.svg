@@ -1,0 +1,26 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Cat">
+<path id="FootBL" d="M22.6485 62.5C32.941 58.2961 38.6485 83 38.6485 83L48.6485 107C48.6485 107 27.1485 99 19.6485 81C16.4157 73.2412 14.8672 65.6782 22.6485 62.5Z" fill="#A86E1D"/>
+<path id="FootBR" d="M91 62.4815C80.7075 58.2776 75 82.9815 75 82.9815L65 106.982C65 106.982 86.5 98.9815 94 80.9815C97.2328 73.2228 98.7813 65.6598 91 62.4815Z" fill="#A86E1D"/>
+<path id="Body" d="M82 78.7914C82 97.6843 72.7401 110 57 110C41.2599 110 32 97.6843 32 78.7914C32 59.8985 41.2599 31 57 31C72.7401 31 82 59.8985 82 78.7914Z" fill="#DE8123"/>
+<path id="FootFL" d="M39 109C39 104.029 43.0294 100 48 100C52.9706 100 57 104.029 57 109C57 113.971 52.9706 115.5 48 115.5C43.0294 115.5 39 113.971 39 109Z" fill="#DE9023"/>
+<path id="FootFR" d="M57 109C57 104.029 61.0294 100 66 100C70.9706 100 75 104.029 75 109C75 113.971 70.9706 115.5 66 115.5C61.0294 115.5 57 113.971 57 109Z" fill="#DE9023"/>
+<ellipse id="Head" cx="57" cy="30.5" rx="23" ry="16.5" fill="#DE9023"/>
+<path id="EarLeft" d="M37.4787 4.28618C39.1814 3.62623 52.7334 18.4828 52.7334 18.4828L35.776 25.0552C35.776 25.0552 35.776 4.94612 37.4787 4.28618Z" fill="#DE9023"/>
+<path id="EarRight" d="M76.2547 3.28618C74.552 2.62623 61 17.4828 61 17.4828L77.9574 24.0552C77.9574 24.0552 77.9574 3.94612 76.2547 3.28618Z" fill="#DE9023"/>
+<path id="Mouth" d="M53.5 40L57.5 36L61 40" stroke="black" stroke-linecap="round"/>
+<ellipse id="EyeL" cx="47" cy="24.5" rx="3" ry="4.5" fill="#040404"/>
+<ellipse id="EyeR" cx="68" cy="24.5" rx="3" ry="4.5" fill="#040404"/>
+<path id="Nose" d="M57.4999 36C57.4999 36 54.1453 34.0549 54 31.5C53.8863 29.5 61.1135 29.5 60.9998 31.5C60.8545 34.0548 57.4999 36 57.4999 36Z" fill="black"/>
+<g id="Whiskers">
+<g id="WhiskerR">
+<path id="WhiskerRT" d="M64.5 32L82 25" stroke="black" stroke-linecap="round"/>
+<path id="WhiskerRB" d="M65 36.0449L83.642 38.8243" stroke="black" stroke-linecap="round"/>
+</g>
+<g id="WhiskerL">
+<path id="WhiskerLT" d="M50.142 32L32.642 25" stroke="black" stroke-linecap="round"/>
+<path id="WhiskerLB" d="M49.642 36.0449L31 38.8243" stroke="black" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
